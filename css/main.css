@@ -1,0 +1,273 @@
+/***********************
+GENERAL
+***********************/
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #006494;
+}
+
+.wrapper {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+p {
+    line-height: 22px;
+    margin-top: 1rem;
+}
+
+.container {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+}
+
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/***********************
+Heading
+***********************/
+
+/***********************
+COLORS
+***********************/
+/* green header */
+header {
+    background-color: #006494;
+    border-color: #599a68;
+}
+
+/* logo text */
+h1, h2 {
+    color: #fff;
+}
+
+/* nav background on mobil dev */
+nav {
+    background: #17506b;
+}
+
+/* nav link */
+nav a, nav a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+    color: #a1afc9;
+    text-decoration: none;
+}
+
+.project1 img {
+    border: 1px solid #17506b;
+    box-shadow: 10px 15px 20px -12px rgba(0, 0, 0, 1);
+
+}
+
+
+/* site body */
+body {
+    background-color: #fff;
+    color: #6D6D6D;
+}
+
+
+h1 {
+    font-family: 'Fauna One', serif;
+    margin: 15px 0;
+    font-size: 1.75em;
+    font-weight: normal;
+    line-height: 0.8em;
+}
+
+header h2 {
+    font-family: 'Fauna One', serif;
+}
+
+header li {
+    font-family: 'Fauna One', serif;
+}
+
+h2 {
+    font-size: 0.75em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+/***********************
+NAVIGATION
+***********************/
+
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    font-weight: 800;
+    padding: 15px 15px;
+}
+
+/***********************
+FOOTER
+***********************/
+.wrapper {
+    min-height: calc(100vh - 64px);
+}
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    padding-top: 50px;
+    color: #999;
+    border-bottom: 10px solid #17506b;
+    width: 100%;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+
+}
+
+img {
+    max-width: 100%;
+    height: 200px;
+    margin-bottom: 2%;
+}
+
+#gallery{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}
+
+#gallery li a p {
+    margin: 0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #bdc3c7;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+/***********************
+PAGE: ABOUT
+***********************/
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 20%;
+}
+
+h3 {
+    margin: 0 0 1em 0;
+}
+
+/***********************
+PAGE: COTACT
+***********************/
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+
+.contact-info li.phone a {
+    background-image: url('../img/telephone.png');
+}
+
+.contact-info li.mail a {
+    background-image: url('../img/envelope.png');
+}
+
+.contact-info li.facebook a {
+    background-image: url('../img/twitter.png');
+}
+
+.contact-info li.linkedin a {
+    background-image: url('../img/xing.png');
+}
+
+.alin {
+    margin-bottom: 4%;
+}
+
+
+.skills{
+
+    /* margin: 0 5% 80px 0; */
+    width: 100%;
+}
+.skills ul{
+    float: left;
+    width: 20%;
+    margin-right: 27%;
+    margin-top: 0;
+    padding: 0
+}
+
+.t {
+    float: left;
+    width: 20%;
+    margin-top: 0;
+    padding: 0
+}
